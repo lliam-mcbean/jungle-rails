@@ -16,6 +16,13 @@ form.button_to {
   display: inline;
 }
 
-.table {
-  
+.sold-out {
+  left: 0;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 4px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 0px !important;
+  padding: 3px;
+  background: rgba($color: #ff0000, $alpha: 0.6) !important;
+  width: fit-content;
 }
