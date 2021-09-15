@@ -73,4 +73,18 @@ main section.products-show {
   }
 }
 
-
+.dl-horizontal {
+  dt {
+    box-shadow: 2px 2px 5px black;
+    background: white;
+    text-align: left;
+    padding: 5px;
+    border: 2px solid;
+  }
+  dd {
+    background: white;
+    box-shadow: 2px 2px 20px black;
+    padding: 5px;
+    border: 2px solid;
+  }
+}
