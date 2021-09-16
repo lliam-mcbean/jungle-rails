@@ -26,3 +26,26 @@ form.button_to {
   background: rgba($color: #ff0000, $alpha: 0.6) !important;
   width: fit-content;
 }
+
+.order-product-container {
+  width: 200px;
+  padding: 10px;
+  margin: 10px !important;
+  border: 1px solid;
+  box-shadow: 2px 2px 20px black;
+
+  h4 {
+    text-align: center;
+  }
+  img {
+    height: 175px;
+    width: 175px;
+  }
+  span {
+    width: 200px;
+  }
+}
+
+.product-flex-container {
+  display: flex;
+}
